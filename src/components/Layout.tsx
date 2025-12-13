@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabaseClient';
-import { MessageSquare, Map, LogOut, Bot, Moon } from 'lucide-react';
+import { MessageSquare, Map, LogOut, Bot } from 'lucide-react';
 
 export default function Layout() {
     const location = useLocation();
@@ -42,9 +42,9 @@ export default function Layout() {
 
         // Listen for custom event 'profileUpdated'
         const handleProfileUpdate = () => {
-             getUserData();
+            getUserData();
         };
-        
+
         window.addEventListener('profileUpdated', handleProfileUpdate);
         getUserData();
 
@@ -86,10 +86,7 @@ export default function Layout() {
                 {/* KANAN: User Profile & Logout */}
                 <div className="flex items-center gap-4">
 
-                    {/* (Opsional) Dark Mode Icon */}
-                    <button className="p-2 text-gray-300 hover:text-gray-500 transition-colors hidden md:block">
-                        <Moon className="w-5 h-5" />
-                    </button>
+
 
                     {/* Garis Pemisah Kecil */}
                     <div className="h-6 w-[1px] bg-gray-200 hidden md:block"></div>
