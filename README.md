@@ -9,7 +9,6 @@ Platform pembelajaran coding dengan pendekatan conversational-first, di mana sel
 - **Progress Tracking Proaktif**: Sistem tracking pembelajaran yang real-time
 - **Sistem Achievement**: Motivasi pengguna dengan badge dan reward
 - **Rekomendasi Kelas Kontekstual**: Saran kelas yang disesuaikan dengan profil user
-- **Dark Mode**: Tema gelap untuk kenyamanan mata
 - **Animasi Smooth**: Transisi dan animasi menggunakan Framer Motion
 
 ## 🛠️ Teknologi
@@ -24,23 +23,20 @@ Platform pembelajaran coding dengan pendekatan conversational-first, di mana sel
 ## 📁 Struktur Folder
 
 ```
-coddy-app/
+asah-coddy/
 ├── public/              # Static assets
 ├── src/
 │   ├── components/      # React components
-│   │   ├── figma/      # Figma-imported components
-│   │   ├── ui/         # ShadCN UI components
-│   │   ├── ChatInterface.jsx
-│   │   ├── RoadmapView.jsx
-│   │   ├── LearningPathSelection.jsx
+│   │   ├── ChatInterface.tsx
+│   │   ├── RoadmapInChat.tsx
 │   │   └── ...
 │   ├── styles/         # Global styles
 │   │   └── globals.css
-│   ├── App.jsx         # Main App component
-│   └── main.jsx        # Entry point
+│   ├── App.tsx         # Main App component
+│   └── main.tsx        # Entry point
 ├── index.html          # HTML template
 ├── package.json        # Dependencies
-├── vite.config.js      # Vite configuration
+├── vite.config.ts      # Vite configuration
 └── README.md          # Documentation
 ```
 
@@ -62,9 +58,6 @@ npm run dev
 
 # Build for production
 npm run build
-
-# Preview production build
-npm run preview
 ```
 
 ## 🎯 Learning Paths
@@ -84,10 +77,6 @@ Aplikasi fully responsive dan dapat digunakan di berbagai ukuran layar:
 - Desktop (>= 1024px)
 - Tablet (768px - 1023px)
 - Mobile (< 768px)
-
-## 🌙 Dark Mode
-
-Toggle dark mode tersedia di header untuk kenyamanan pengguna dalam berbagai kondisi pencahayaan.
 
 ## 🏆 Achievement System
 
