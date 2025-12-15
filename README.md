@@ -19,6 +19,8 @@ Platform pembelajaran coding dengan pendekatan conversational-first, di mana sel
 - **Motion (Framer Motion)** - Animasi
 - **React Flow** - Visualisasi roadmap
 - **Lucide React** - Icons
+- **Gemini** - Chatbot
+- **Supabase** - Database
 
 ## 📁 Struktur Folder
 
@@ -62,14 +64,19 @@ npm run build
 
 ## 🎯 Learning Paths
 
-- Web Development
-- Mobile Development
-- Data Science
-- Machine Learning
-- Full Stack Development
-- UI/UX Design
-- Backend Development
-- Cyber Security
+- Front-End Web Developer
+- Android Developer
+- Data Scientist
+- MLOps Engineer
+- Back-End Developer JavaScript
+- Back-End Developer Python
+- Gen AI Engineer
+- AI Engineer
+- React Developer
+- Multi-Platform App Developer
+- iOS Developer
+- Google Cloud Professional
+- DevOps Engineer
 
 ## 📱 Responsive Design
 
@@ -77,15 +84,6 @@ Aplikasi fully responsive dan dapat digunakan di berbagai ukuran layar:
 - Desktop (>= 1024px)
 - Tablet (768px - 1023px)
 - Mobile (< 768px)
-
-## 🏆 Achievement System
-
-5 tipe achievement:
-- First Course: Badge pertama setelah menyelesaikan kelas pertama
-- Streak: Badge untuk konsistensi belajar
-- Level Up: Badge saat naik level
-- Mastery: Badge untuk menguasai topik tertentu
-- Milestone: Badge untuk pencapaian besar
 
 ## 📝 License
 
