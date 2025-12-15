@@ -20,7 +20,12 @@ Platform pembelajaran coding dengan pendekatan conversational-first, di mana sel
 - **Lucide React** - Icons
 - **Gemini** - Chatbot
 - **Supabase** - Database
-- **ML Model** - https://drive.google.com/drive/folders/1wSaJaT1OE28t1aqXBJK_INxzL7w7ZMqW?usp=sharing
+
+## Model Machine Learning
+Proyek Coddy mengadopsi arsitektur modern Cloud-Native. Kami tidak melatih model dari nol.
+Sebaliknya, kami menggunakan layanan Large Language Model siap pakai, yaitu Gemini 1.5 Flash API, sebagai Core Intelligence dari mentor Coddy.
+Dengan menggunakan API, kami tidak memiliki file model fisik untuk diunggah. Keunggulan arsitektur ini adalah Skalabilitas Instan dan Biaya Operasional yang Terkendali. Inti kecerdasan buatan kami ada di Prompt Engineering yang kami tanamkan di dalam Edge Function, yang membuat Gemini dapat membaca Minat, Level, dan Progres user dari database secara real-time.
+**Functions ML** - https://drive.google.com/drive/folders/1wSaJaT1OE28t1aqXBJK_INxzL7w7ZMqW?usp=sharing
 
 ## 📁 Struktur Folder
 
