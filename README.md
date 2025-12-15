@@ -20,6 +20,7 @@ Platform pembelajaran coding dengan pendekatan conversational-first, di mana sel
 - **Lucide React** - Icons
 - **Gemini** - Chatbot
 - **Supabase** - Database
+- **ML Model** - https://drive.google.com/drive/folders/1wSaJaT1OE28t1aqXBJK_INxzL7w7ZMqW?usp=sharing
 
 ## 📁 Struktur Folder
 
