@@ -1,4 +1,4 @@
-# Coddy - Conversational Learning Platform
+# Coddy - Teman Ngodingmu
 
 Platform pembelajaran coding dengan pendekatan conversational-first, di mana seluruh pengalaman pengguna (onboarding, asesmen, roadmap, tracking) terjadi dalam satu antarmuka chat yang modern dan interaktif.
 
@@ -7,7 +7,6 @@ Platform pembelajaran coding dengan pendekatan conversational-first, di mana sel
 - **Onboarding Percakapan Interaktif**: Pengalaman onboarding yang natural melalui chat
 - **Roadmap Visual Adaptif**: Visualisasi learning path menggunakan React Flow
 - **Progress Tracking Proaktif**: Sistem tracking pembelajaran yang real-time
-- **Sistem Achievement**: Motivasi pengguna dengan badge dan reward
 - **Rekomendasi Kelas Kontekstual**: Saran kelas yang disesuaikan dengan profil user
 - **Animasi Smooth**: Transisi dan animasi menggunakan Framer Motion
 
